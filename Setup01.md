@@ -22,4 +22,4 @@
 
  <p align="center"> <img src="images/setup-four-resources.png"/> </p>
 
- **DataBricks, Data Factory, Key Vault, and Storage Account.**
+ - **DataBricks, Data Factory, Key Vault, and Storage Account.**

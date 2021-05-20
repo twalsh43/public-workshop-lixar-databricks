@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="images/welcome-banner.PNG"/>
+    <img src="images/welcome-banner.png"/>
 </p>
 
 # Databricks Deep Dive for the Public Sector
