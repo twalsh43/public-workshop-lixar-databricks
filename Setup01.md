@@ -2,7 +2,7 @@
 
  1. Go to the link in your email. Fill out your name, organization name, country and the Activation Code from the email.  
 
- <p align="center"> <img src="images/setup-signup.png"/> </p>
+ <p align="center"> <img src="images/setup-signup-form.png"/> </p>
 
 2. Wait for the spin up. Copy the username and password. Username may look something like:  
 
