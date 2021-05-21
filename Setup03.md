@@ -81,19 +81,26 @@ databricks-workshop
  1. Select your Key Vault 
   <p align="center"> <img src="images/setup02-select-key-vault.png"/> </p>
 
- 3. Within the Key Vault, Select Secrets (not keys)
+ 2. Within the Key Vault, Select Secrets (not keys)
  <p align="center"> <img src="images/setup02-key-vault-secrets.png"/> </p>
 
  3. Then Generate and Import
  <p align="center"> <img src="images/setup02-key-vault-generate.png"/> </p>
 
- 3. For the value, paste in the copied key from the storage account in the value textbox. <br>
+ 4. For the value, paste in the copied key from the storage account in the value textbox. <br>
  NOTE: if it does not successfully paste, go back to the other tab (Storage Account Access Keys), copy the key1 value again, go back to the Key Vault Secrets tab, and paste the Value again.
  <p align="center"> <img src="images/setup02-mysecretADLSKey.png"/> </p>
 
- 3. For name put the following exactly (no spaces) <br>
+ 5. For name put the following exactly (no spaces) <br>
  mysecretADLSKey
  <p align="center"> <img src="images/setup02-mysecretADLSKey.png"/> </p>
 
- 3. Then select create
+ 6. Then select create
   <p align="center"> <img src="images/setup02-add_container_name.png"/> </p>
+
+ 7. **IMPORTANT:** Keep this tab open, because we will need to use the Key Vault during the next task.
+
+
+## This task was a bit involved but grants the following advantages:
+- **Data Security:** The Azure Key Vault is a secure place to store the access credentials to our storage account, so outsiders cannot access our data.
+- **Allow Databricks Access to Data**: Next, we will create a secure connection between DataBricks and the Key Vault (using a DataBricks Secret Scope). This will allow Databricks to access the Storage Account, where we will be writing our Delta Tables to.
