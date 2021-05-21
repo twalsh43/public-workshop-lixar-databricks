@@ -14,7 +14,7 @@
 3. Open a new tab in your browser, and paste in the URL. This will take you to a page titled "Create Secret Scope"
 
 4. Go back to your other tab from the previous task with the Azure Key Vault
-- **OR** if you lost the tab: Go to the Azure Portal https://portal.azure.com/, then your Key Vault under *Recent resources*
+- **OR** if you lost the tab: Open a new tab, and go to the Azure Portal https://portal.azure.com/, then your Key Vault under *Recent resources*
 
 5. From within the Key Vault, click *Properties*: 
 
