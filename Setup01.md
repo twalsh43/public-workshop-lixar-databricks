@@ -18,7 +18,7 @@
 
 **Now we are in the Azure Portal!** 
 
-5. Click Resource Groups, and you will see the following resources have been created for you:
+5. Click Resource Groups, select the only resource group and you will see the following resources have been created for you:
 
  <p align="center"> <img src="images/setup-four-resources.png"/> </p>
 
