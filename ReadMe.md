@@ -34,9 +34,10 @@ Note: Steps 5-7 regarding the Storage Account and Key Vault are not required to 
 Within the Databricks workspace, there is an **Extra** folder alongside the main exercise notebooks. These are concepts frequently important for Databricks in production, but we didn't have enough time to cover today.    
 
 ```
-├── 01_Update_Delta_Tables  # Handle data updates: new data, and fill-in missing data  
-├── 02_Azure_Data_Factory   # Simple exercise showing how ADF can pass parameters to the next stage of a data pipeline  
-├── 03_SQL_Database  	    # Write the cleaned Delta Tables to a SQL Database, and run an analytical query
-├── 04_Koalas_API_Pandas    # Brief demo showing the Koalas API for using a Pandas DF in Spark
+├── Extras
+	├── 01_Update_Delta_Tables  # Handle data updates: new data, and fill-in missing data  
+	├── 02_Azure_Data_Factory   # Simple exercise showing how ADF can pass parameters to the next stage of a data pipeline  
+	├── 03_SQL_Database  	    # Write the cleaned Delta Tables to a SQL Database, and run an analytical query
+	├── 04_Koalas_API_Pandas    # Brief demo showing the Koalas API for using a Pandas DF in Spark
 ```
 

@@ -2,7 +2,7 @@
 
 1. From within your Resource Group, click on the Azure Databricks resource
 
- <p align="center"> <img src="images/setup-signup-form.png"/> </p>
+ <p align="center"> <img src="images/setup-databricks-resource.png"/> </p>
 
 2. Click Launch Workspace to access the Databricks Workspace
 
@@ -23,7 +23,7 @@
 
 2. Save the DBC archive to your computer
 
-3. Go back to your Databricks tab, and click the **Workspace** icon
+3. Go back to your Databricks tab, and click the **Workspace** icon:
 
  <p align="center"> <img src="images/setup-databricks-workspaceicon.png"/> </p>
 
